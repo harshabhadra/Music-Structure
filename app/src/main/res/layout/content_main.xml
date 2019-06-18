@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.musicapp.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#69F0AE"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/songs_list"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#69F0AE"
+                android:padding="8dp"
+                android:text="@string/SONGS_LIST_DESCRIPTIION"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/songs1"
+                layout="@layout/songs" />
+
+            <include
+                android:id="@+id/songs2"
+                layout="@layout/songs" />
+
+            <include
+                android:id="@+id/songs3"
+                layout="@layout/songs" />
+
+            <include
+                android:id="@+id/songs4"
+                layout="@layout/songs" />
+
+            <include
+                android:id="@+id/songs5"
+                layout="@layout/songs" />
+
+            <include
+                android:id="@+id/songs6"
+                layout="@layout/songs" />
+
+            <include
+                android:id="@+id/songs7"
+                layout="@layout/songs" />
+
+            <include
+                android:id="@+id/songs8"
+                layout="@layout/songs" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

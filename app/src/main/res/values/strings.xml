@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Music App</string>
+    <string name="action_settings">Settings</string>
+    <!-- HINT TEXT FOR content main xml-->
+    <!-- HINT TEXT FOR SONGS LIST LABEL CHAR LIMIT[10]-->
+    <string name="songs_list">Songs List</string>
+    <!-- HINT TEXT FOR SONG LIST DESCRIPTION-->
+    <string name="SONGS_LIST_DESCRIPTIION">When you open the app all of your songs will listed below if you do not have any songs then you can click on the add button to add songs from ur device or buy songs online PayPal will be used to process the payment.</string>
+    <!-- HINT TEXTS FOR songs.xml-->
+    <!-- HINT TEXT FOR SONGS NAME CHAR LIMIT [10]-->
+    <string name="songs_name">Song Name</string>
+    <!-- HINT TEXT FOR SINGER NAME CHAR LIMIT[12]-->
+    <string name="singer_name">Singer Name</string>
+    <!-- HINT TEXTS FOR now_plaing activity-->
+    <!-- HINT TEXT FOR LABEL-->
+    <string name="now_playing">Now Playing</string>
+    <!-- HINT TEXT FOR DESCRIPTION-->
+    <string name="now_playing_description">In this Activity you can see a image view of song and play buttons to pause or play and move forward or backward. And you can click on the Song details and Artist details to go to another activity</string>
+    <!-- HINT TEXT FOR SONGS DETAILS BUTTON -->
+    <string name="songs_details">Songs Details</string>
+    <!-- HINT TEXT FOR ARTIST DETAILS-->
+    <string name="artist_details">Artist Details</string>
+    <!-- HINT TEXT FOR song_details.xml-->
+    <!-- HINT TEXT FOR LABEL-->
+    <string name="songs_details_label">Song Details</string>
+    <!-- HINT TEXT FOR DESCRIPTION-->
+    <string name="song_details_description">In this activity you can see the detais of the song and a back Button to go go back to Now playing activity</string>
+    <!-- HINT TEXT FOR TITLE-->
+    <string name="title">Title : Songs Name</string>
+    <!-- HINT TEXT FOR ARTIST NAME-->
+    <string name="atrist_name">Artist : Artist Name</string>
+    <!-- HINT TEXT FOR ALBUM NAME-->
+    <string name="album_name">Album : Album Name</string>
+    <!-- HINT TEXT FOR COMPOSER-->
+    <string name="composer">Composer : Composer Name</string>
+    <!-- HINT TEXT FOR RELEASE YEAR-->
+    <string name="realease_year">Year : Year of Release</string>
+    <!-- HINT TEXT FOR COPYRIGHT-->
+    <string name="copyright">Copyright : Copyright Owner</string>
+    <!-- HINT TEXT FOR BACK BUTTON-->
+    <string name="back_button">Back</string>
+    <!-- HINT TEXTS FOR ARTIST DETAILS XML-->
+    <!-- HINT TEXT FOR DESCRIPTION-->
+    <string name="artist_details_description">In this activity you can see the Artist Details . And have a back button to go back to Now Plaing activity</string>
+    <!-- HINT TEXT FOR detailsartist.xml-->
+    <!-- HINT TEXT FOR DOB-->
+    <string name="dob">DOB : Year of Birth</string>
+    <!-- HINT TEXT FOR FAMOUS SONG-->
+    <string name="famous_song">Famous Songs : Songs Name</string>
+    <!-- HINT TEXTS FOR addsongs.xml-->
+    <!-- HINT TEXT FOR LABEL-->
+    <string name="labeladd">Add Songs</string>
+    <!-- HINT TEXT FOR DESCRIPTION-->
+    <string name="add_songs_description">When you open this activity you can see two option Scan ur device and Buy Songs online . You can select any one and can add songs from ur device and buy songs online.</string>
+<!-- HINT TEXT FOR scandevice.xml-->
+    <string name="scan_device">Scan Device</string>
+    <!-- HINT TEXT FOR bysongs.xml-->
+    <string name="buy_online">Buy Online</string>
+    <!-- HINT TEXT FOR paymentActivity-->
+    <!-- HINT TEXT FOR LABEL-->
+    <string name="buy_songs">Buy Songs</string>
+    <!-- HINT TEXT FOR DESCRIPTION-->
+    <string name="buy_online_description">In this activity you can buy songs online. Select the songs listed below and click on the buy button to complete Payment.PayPal will be used to complete the payment</string>
+    <!-- HINT TEXT FOR BUY BUTTON-->
+    <string name="buy">Buy</string>
+
+
+</resources>
